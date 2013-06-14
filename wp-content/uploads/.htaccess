@@ -1,0 +1,3 @@
+# Rewrite access to PHP files to use the default handler, not fcgid
+RewriteEngine on
+RewriteRule ^(.*\.php[3-5]?(/.*)?)$     $1 [H=default-handler,PT]

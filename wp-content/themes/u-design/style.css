@@ -1,0 +1,202 @@
+/*
+Theme Name: U-Design
+Theme URI: http://themeforest.net/item/udesign-wordpress-theme/253220?ref=internq7
+Description: A slick, powerful and clean theme.
+Author: Andon
+Author URI: http://themeforest.net/user/internq7/portfolio?ref=internq7
+Version: 1.8.0
+License: Located in 'licensing' folder
+License URI: Located in 'licensing' folder
+*/
+
+/*
+    Do not remove any of the commented text above as it is used by the theme for proper function!
+
+    All the themes' CSS files are located under the 'styles/' sub-folder...
+
+    If you would like to use this file to add any custom CSS, you'll need to enable it first  
+    from the theme's "General Options" section.
+    Please note: After enabling the use of this file, you will not see any change here, 
+    feel free to add your custom CSS below.
+    On the other hand, if you need access to the theme's main style sheet, you will 
+    need FTP client to access it, is it located in: "styles/style1/css/style.css"
+*/
+
+#c1-header #header-content {
+padding-top: 0px;
+}
+
+.c1-slide-img-wrapper {
+padding: 0px 0;
+}
+
+#c1-header .c1-slideshow {
+padding: 0px 0;
+}
+
+ul.list-1, ul.list-2, ul.list-3, ul.list-4, ul.list-5, ul.list-6, ul.list-7, ul.list-8, ul.list-9, ul.list-10, ul.list-11 {
+margin: 5px 0 5px 10px;
+position: relative;
+overflow: hidden;
+color: #999;
+font-size: 14px;
+}
+
+#home-page-content {
+background-color: whiteSmoke;
+}
+
+#bottom-bg {
+position: relative;
+display: block;
+float: left;
+width: 100%;
+background-color: #333;
+padding-bottom: 20px;
+}
+
+#c1-header .c1-slideshow {
+position: relative;
+background-color: transparent;
+overflow: hidden;
+outline: none;
+width: 960px;
+height: 400px;
+z-index: 100;
+}
+
+#c1-header {
+background-color: white;
+display: block;
+float: left;
+position: relative;
+width: 100%;
+padding-bottom: 0px;
+height: 400px;
+}
+
+#logo {
+top: 16px;
+left: 0;
+position: absolute;
+z-index: 100;
+padding-left: 20px;
+}
+
+a.read-more-align-right {
+float: right;
+padding-top: 10px;
+}
+
+ul.list-1, ul.list-2, ul.list-3, ul.list-4, ul.list-5, ul.list-6, ul.list-7, ul.list-8, ul.list-9, ul.list-10, ul.list-11 {
+margin: 5px 0 5px 10px;
+position: relative;
+overflow: hidden;
+color: #333;
+font-size: 12px;
+line-height: 30px;
+}
+
+h2 {
+font-size: 1.367em !important;
+color: #FE5E08;
+}
+
+.entry {
+padding: 10px 0 20px;
+clear: both;
+width: 960px;
+}
+
+#bottom a {
+color: #FE5E08;
+}
+
+
+#bottom-bg h3,  #bottom-bg h4, #bottom-bg p{
+color: white;
+}
+
+#bottom {
+line-height: 1.7;
+padding: 14px 0;
+color: white;
+}
+
+#bottom-bg ul.list-2{
+color: white;
+}
+
+#bottom a:hover {
+color: white;
+}
+
+.container_24 .grid_16 {
+width: 640px;
+}
+
+
+.container_24 .prefix_15 {
+ padding-left: 500px;
+}
+
+#top-elements .social_media_top {
+padding: 0px 0px 0px 0px;
+width: 600px;
+float: right;	
+}
+
+
+#wpclient_login_form li{
+float: left;
+margin-left: 10px;
+color: #FE5E08;
+}
+
+#top-elements .social_media_title {
+text-align: left;
+color: #FE5E08;
+padding: 0;
+margin: 0;
+}
+
+
+/*Landing Pages Styles*/
+
+.page-template-page-LandingPage-php .one-fourth p, .page-template-page-LandingPage-php h3 p {
+
+    margin: 0 0 0px;
+    padding: 0px 0;
+    text-align: center;
+}
+
+#target, #theDark { display: none;}
+
+#theDark {
+	position:fixed;
+	background-color:#000;
+	opacity:.7;
+	top: 0px;
+	right: 0px;
+	left:0px;
+	bottom:0px;
+	z-index:500;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+	filter: alpha(opacity=70);
+}
+
+div .mainarticle {
+	display:none;
+	background-color:#999;
+	position:fixed;
+	z-index:1000;
+	left:25%;
+	top:5%;
+	height:60%;
+	width:50%;
+	top:145px;
+	border-radius:15px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	
+}
